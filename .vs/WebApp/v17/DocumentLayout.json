@@ -1,0 +1,233 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC07CC7-0091-4F8F-9E2E-D4432EDD8D71}|WebApp.csproj|d:\\neha\\.net_samples\\codefirstapproach\\webapp\\assets\\home\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1DC07CC7-0091-4F8F-9E2E-D4432EDD8D71}|WebApp.csproj|solutionrelative:assets\\home\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC07CC7-0091-4F8F-9E2E-D4432EDD8D71}|WebApp.csproj|D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\views\\auth\\auth.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DC07CC7-0091-4F8F-9E2E-D4432EDD8D71}|WebApp.csproj|solutionrelative:views\\auth\\auth.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC07CC7-0091-4F8F-9E2E-D4432EDD8D71}|WebApp.csproj|D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DC07CC7-0091-4F8F-9E2E-D4432EDD8D71}|WebApp.csproj|solutionrelative:views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC07CC7-0091-4F8F-9E2E-D4432EDD8D71}|WebApp.csproj|D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DC07CC7-0091-4F8F-9E2E-D4432EDD8D71}|WebApp.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC07CC7-0091-4F8F-9E2E-D4432EDD8D71}|WebApp.csproj|D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DC07CC7-0091-4F8F-9E2E-D4432EDD8D71}|WebApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC07CC7-0091-4F8F-9E2E-D4432EDD8D71}|WebApp.csproj|D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\assets\\home\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1DC07CC7-0091-4F8F-9E2E-D4432EDD8D71}|WebApp.csproj|solutionrelative:assets\\home\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC07CC7-0091-4F8F-9E2E-D4432EDD8D71}|WebApp.csproj|D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\views\\home\\aboutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DC07CC7-0091-4F8F-9E2E-D4432EDD8D71}|WebApp.csproj|solutionrelative:views\\home\\aboutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC07CC7-0091-4F8F-9E2E-D4432EDD8D71}|WebApp.csproj|D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DC07CC7-0091-4F8F-9E2E-D4432EDD8D71}|WebApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC07CC7-0091-4F8F-9E2E-D4432EDD8D71}|WebApp.csproj|D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\assets\\auth\\auth.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1DC07CC7-0091-4F8F-9E2E-D4432EDD8D71}|WebApp.csproj|solutionrelative:assets\\auth\\auth.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 23,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{b9f91511-5ca5-40ec-9726-f3e3a7e534e2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1439567739:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T09:59:26.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T09:59:19.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AboutPage.cshtml",
+              "DocumentMoniker": "D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\Views\\Home\\AboutPage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AboutPage.cshtml",
+              "ToolTip": "D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\Views\\Home\\AboutPage.cshtml",
+              "RelativeToolTip": "Views\\Home\\AboutPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T09:54:54.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T09:54:08.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.js",
+              "DocumentMoniker": "D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\Assets\\Home\\Home.js",
+              "RelativeDocumentMoniker": "Assets\\Home\\Home.js",
+              "ToolTip": "D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\Assets\\Home\\Home.js",
+              "RelativeToolTip": "Assets\\Home\\Home.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-27T09:42:28.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Auth.css",
+              "DocumentMoniker": "D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\Assets\\Auth\\Auth.css",
+              "RelativeDocumentMoniker": "Assets\\Auth\\Auth.css",
+              "ToolTip": "D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\Assets\\Auth\\Auth.css",
+              "RelativeToolTip": "Assets\\Auth\\Auth.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-27T09:27:02.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.css",
+              "DocumentMoniker": "D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\Assets\\Home\\Home.css",
+              "RelativeDocumentMoniker": "Assets\\Home\\Home.css",
+              "ToolTip": "D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\Assets\\Home\\Home.css",
+              "RelativeToolTip": "Assets\\Home\\Home.css",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-27T09:20:15.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.cshtml",
+              "DocumentMoniker": "D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\Views\\Home\\HomePage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\HomePage.cshtml",
+              "ToolTip": "D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\Views\\Home\\HomePage.cshtml",
+              "RelativeToolTip": "Views\\Home\\HomePage.cshtml",
+              "ViewState": "AgIAAAEAAADAzMzMzAwswBEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-12T07:23:25.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Auth.cshtml",
+              "DocumentMoniker": "D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\Views\\Auth\\Auth.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Auth.cshtml",
+              "ToolTip": "D:\\Neha\\.NET_Samples\\CodeFirstApproach\\WebApp\\Views\\Auth\\Auth.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Auth.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T04:08:34.255Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

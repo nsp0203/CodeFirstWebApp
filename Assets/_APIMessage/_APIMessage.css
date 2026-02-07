@@ -1,0 +1,12 @@
+﻿.msgContainer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.6);
+}
+.msgtxt {
+    color: white;
+}

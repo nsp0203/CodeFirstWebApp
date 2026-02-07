@@ -1,0 +1,85 @@
+﻿
+@{
+    ViewBag.Title = "HomePage";
+}
+
+<html>
+<head>
+    <title>Home</title>
+    <link href="~/Assets/Home/Home.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.7.0.js"></script>
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Assets/Home/Home.js"></script>
+</head>
+<body>
+    <div>
+        @*<nav>
+            <a href="/Home/HomePage">Home</a>
+            <a href="/Home/AboutPage">About</a>
+            <a href="~/Views/Home/HomePage.cshtml">Products</a>
+            <a href="/Home/HomePage">Contact</a>
+        </nav>*@
+        <div class="container" ng-app="Home" ng-controller="HomeCtrl">
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>UserName</th>
+                            <th>Email</th>
+                            <th>Address</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="user in Users">
+                            <td>{{ user.Id }}</td>
+                            <td>{{ user.Name | uppercase }}</td>
+                            <td>{{ user.UserName }}</td>
+                            <td>{{ user.Email | lowercase }}</td>
+                            <td>{{ user.Address }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button>Get Report</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        //$(document).ready(function () {
+        //    fetch('https://localhost:44340/User/GetUsers',
+        //        {
+        //            method: "GET",
+        //            headers: {
+        //                "Content-Type": "application/JSON",
+        //            },
+        //        }
+        //    )
+
+        //        .then(response => response.json())
+        //        .then(result => {
+        //            console.log(result);
+        //            let Data = result.Data;
+        //            let table = $('#userDetails');
+        //            Data.forEach(item => {
+        //                let row = `
+        //                <tr>
+        //                    <td>${item.Id}</td>
+        //                    <td>${item.Name}</td>
+        //                    <td>${item.UserName}</td>
+        //                    <td>${item.Email}</td>
+        //                    <td>${item.Address}</td>
+        //                </tr>
+        //                `
+
+        //                table.append(row);
+        //            });
+        //        })
+        //        .catch(error => {
+        //            console.log(error);
+        //        });
+        //})
+
+    </script>
+</body>
+</html>

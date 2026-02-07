@@ -1,0 +1,144 @@
+﻿
+@{
+    ViewBag.Title = "Auth";
+    Layout = null;
+}
+
+<html>
+<head>
+    <title>Registration</title>
+    <link href="~/Assets/Auth/Auth.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.7.0.js"></script>
+</head>
+<body>
+    <div id="messageContainer"></div>
+    <div class="containerDiv">
+
+        <div class="container">
+            <div class="formContainer" id="RegisterCard">
+                <h2 class="title">Registration</h2>
+                <form method="post" id="Registerform">
+                    <input type="text" placeholder="Enter Your Name" class="inputTextBox" id="Name" />
+                    <input type="email" placeholder="Enter Your Email" class="inputTextBox" id="Email" />
+                    <input type="text" placeholder="Enter Your UserName" class="inputTextBox" id="UserName" />
+                    <input type="password" placeholder="Enter Your Password" class="inputTextBox" id="Password" />
+                    @*@Html.TextBox("firstName", "", new { @class = "inputTextBox", placeholder = "Enter First Name" })*@
+                    <select>
+                        <option>Select your Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Dont want to Disclose">Dont want to Disclose</option>
+                    </select>
+                    <button type="submit" class="submitBtn" id="SubmitBtn" name="Register">Submit</button>
+                    <label class="label">Already a Member ? <span class="loginLabel" id="login">Login</span></label>
+                </form>
+            </div>
+            <div class="formContainer" id="LoginCard">
+                <h2 class="title">Login</h2>
+                <form method="post" id="Loginform">
+                    <input type="text" placeholder="Enter Your UserName" class="inputTextBox" id="LoginUserName" />
+                    <input type="password" placeholder="Enter Your Password" class="inputTextBox" id="LoginPassword" />
+                    <button type="submit" class="submitBtn" id="SubmitBtn" name="Register">Submit</button>
+                    <label class="label">Dont have an account ? <span class="registerLabel" id="register">Register</span></label>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#Registerform").on("submit", function (e) {
+                e.preventDefault();
+
+                var data = {
+                    Name: $('#Name').val(),
+                    Email: $('#Email').val(),
+                    UserName: $('#UserName').val(),
+                    Password: $('#Password').val(),
+                }
+
+                fetch('https://localhost:44340/User/Register', {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/JSON",
+                    },
+                    body: JSON.stringify(data)
+
+                })
+
+                    .then(response => response.json())
+                    .then(result => {
+                        console.log(result);
+                    })
+                    .catch(error => {
+                        console.log(error);
+                    });
+
+            });
+
+            $("#Loginform").on("submit", function (e) {
+                e.preventDefault();
+
+                var data = {
+                    UserName: $("#LoginUserName").val(),
+                    Password: $("#LoginPassword").val(),
+                }
+
+                $.ajax({
+                    url: "https://localhost:44340/User/Login",
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/JSON",
+                    },
+                    data: JSON.stringify(data),
+                    success: function (response) {
+                        // To show the Message Returned By API
+                        $.get('/PartialActions/ShowApiMessage', { message: response.Message }, function (html) {
+                            $('#messageContainer').html(html).fadeIn(300).delay(800).fadeOut(500, function () {
+                                $(this).html('');
+                            });
+                        });
+
+                        if (response.ResponseCode == 200) {
+                            setTimeout(function () {
+                                window.location.href = '/Home/HomePage';
+                            }, 2000);
+                        }
+                    },
+                    error: function (response) {
+                        console.log(response);
+                        alert('Error Occurred');
+                    }
+                });
+
+                //fetch("https://localhost:44340/User/Login", {
+                //    method: "POST",
+                //    headers: {
+                //        "Content-Type": "application/JSON",
+                //    },
+                //    body: JSON.stringify(data)
+                //})
+                //    .then(response => response.json())
+                //    .then(result => {
+                //        console.log(result);
+                //        window.location.href = '/Home/HomePage'
+                //    })
+                //    .catch(error => {
+                //        console.log(error);
+                //    });
+            });
+
+            $("#login").on("click", function () {
+                $("#LoginCard").show();
+                $("#RegisterCard").hide();
+            })
+
+            $("#register").on("click", function () {
+                $("#LoginCard").hide();
+                $("#RegisterCard").show();
+            })
+        });
+
+    </script>
+</body>
+</html>
